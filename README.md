@@ -11,7 +11,7 @@ Este repositorio contiene la resolución de la Práctica Formativa Obligatoria 2
 
 ## 🚀 Deploy Unificado
 La interfaz integradora que conecta a todos los agentes evaluados se encuentra desplegada en Vercel:
-🔗 **[INGRESAR_AQUI_TU_LINK_DE_VERCEL](https://tu-link-de-vercel.vercel.app)**
+🔗 **[Ver Deploy en Vercel](https://tu-link-de-vercel.vercel.app)**
 
 ---
 
@@ -57,14 +57,27 @@ Este es el prompt exacto ejecutado en todos los agentes, sin alteraciones, respe
 ### 1. Agente: Antigravity (Modelo: Claude Sonnet 4.6 - Thinking)
 > Breve observación: *[Opcional: Podés agregar acá qué tal le fue a este agente]*
 
-![Captura Landing Page Antigravity](RUTA_A_TU_IMAGEN_ANTIGRAVITY.png)
+![Home Landing Page Antigravity](./img/home-antigravity.png)
+![Sobre nosotros Landing Page Antigravity](./img/nosotros-antigravity.png)
+![Características Landing Page Antigravity](./img/caracteristicas-antigravity.png)
+![Reseñas Landing Page Antigravity](./img/reseñas-antigravity.png)
+![Contacto Landing Page Antigravity](./img/contacto-antigravity.png)
+![Footer Landing Page Antigravity](./img/footer-antigravity.png)
 
 ### 2. Agente: Cursor (Modelo: Composer 2.5 Fast)
 > Breve observación: *[Opcional: Podés agregar acá qué tal le fue a este agente]*
 
-![Captura Landing Page Cursor](RUTA_A_TU_IMAGEN_CURSOR.png)
+![Home Landing Page Cursor](./img/home-cursor.png)
+![Sobre nosotros Landing Page Cursor](./img/nosotros-cursor.png)
+![Características Landing Page Cursor](./img/caracteristicas-cursor.png)
+![Reseñas Landing Page Cursor](./img/reseñas-cursor.png)
+![Contacto y footer Landing Page Cursor](./img/contacto-footer-cursor.png)
 
 ### Extra: Agente de Validación (Codex - GPT-5.5 Alto)
 > Primer agente evaluado para validar el correcto diseño y límites del prompt.
 
-![Captura Landing Page Codex](RUTA_A_TU_IMAGEN_CODEX.png)
+![Home Landing Page Codex](./img/home-codex.png)
+![Sobre nosotros Landing Page Codex](./img/nosotros-codex.png)
+![Características Landing Page Codex](./img/caracteristicas-codex.png)
+![Reseñas Landing Page Codex](./img/reseñas-codex.png)
+![Contacto y footer Landing Page Codex](./img/contacto-footer-codex.png)
