@@ -64,7 +64,7 @@ Este es el prompt exacto ejecutado en todos los agentes, sin alteraciones, respe
 ![Contacto Landing Page Antigravity](./img/contacto-antigravity.png)
 ![Footer Landing Page Antigravity](./img/footer-antigravity.png)
 
-<video src="./img/antigravity-responsive.mp4" controls width="100%"></video>
+<video src="https://github.com/IvanaZandona/PFO2-FrontEnd-TecDS/raw/main/img/antigravity-responsive.mp4" controls width="100%"></video>
 
 ### 2. Agente: Cursor (Modelo: Composer 2.5 Fast)
 > Breve observación: *Logró un resultado visual muy similar al primer agente, con un layout y animaciones casi idénticos. A diferencia de Antigravity, este modelo no logró integrar un menú hamburguesa para la vista de dispositivos móviles.*
@@ -75,7 +75,7 @@ Este es el prompt exacto ejecutado en todos los agentes, sin alteraciones, respe
 ![Reseñas Landing Page Cursor](./img/reseñas-cursor.png)
 ![Contacto y footer Landing Page Cursor](./img/contacto-footer-cursor.png)
 
-<video src="./img/cursor-responsive.mp4.mp4" controls width="100%"></video>
+<video src="https://github.com/IvanaZandona/PFO2-FrontEnd-TecDS/raw/main/img/cursor-responsive.mp4" controls width="100%"></video>
 
 ### Extra: Agente de Validación (Codex - GPT-5.5 Alto)
 > Breve observación: *Fue el primer agente utilizado para validar la estructura, el diseño y los límites del prompt maestro. Si bien el resultado general es coherente con el resto, presentó falencias claras de UI, por ejemplo, un ícono SVG con una forma extraña en la sección principal y un footer muy básico. Curiosamente, fue el agente que mejor resolvió la lógica y el diseño del menú hamburguesa en la vista mobile.*
@@ -86,7 +86,7 @@ Este es el prompt exacto ejecutado en todos los agentes, sin alteraciones, respe
 ![Reseñas Landing Page Codex](./img/reseñas-codex.png)
 ![Contacto y footer Landing Page Codex](./img/contacto-footer-codex.png)
 
-<video src="./img/codex-responsive.mp4" controls width="100%"></video>
+<video src="https://github.com/IvanaZandona/PFO2-FrontEnd-TecDS/raw/main/img/cursor-responsive.mp4" controls width="100%"></video>
 
 ### Conclusión
 
