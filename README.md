@@ -4,6 +4,7 @@ Este repositorio documenta el desarrollo de la Práctica Formativa Obligatoria 2
 
 ## Estudiante:
 * **Nombre y Apellido:** Ivana Zandoná
+* **Comisión:** D - Lunes
 * **Institución:** IFTS N°29
 * **Carrera:** Tecnicatura Superior en Desarrollo de Software
 
