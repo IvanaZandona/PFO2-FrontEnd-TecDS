@@ -1,21 +1,21 @@
-# 🤖 PFO 2: Prompt Engineering en Agentes de IA
+# PFO 2: Prompt Engineering en Agentes de IA
 
-Este repositorio contiene la resolución de la Práctica Formativa Obligatoria 2, cuyo objetivo es evaluar la capacidad de resolución autónoma de distintos agentes de desarrollo de software (IA) mediante la inyección de un único "One-Shot Prompt" de alta precisión.
+Este repositorio documenta el desarrollo de la Práctica Formativa Obligatoria 2, enfocada en la evaluación de herramientas de desarrollo asistido. El proyecto mide la capacidad de interpretación, maquetación y autonomía de distintos agentes de IA al procesar una instrucción inicial compleja (One-Shot Prompt). El objetivo fue generar una interfaz Frontend completa y responsiva bajo la restricción estricta de no intervenir manualmente el código fuente resultante.
 
-## 👤 Datos del Estudiante
-* **Nombre y Apellido:** Ivana Zandona
+## Estudiante:
+* **Nombre y Apellido:** Ivana Zandoná
 * **Institución:** IFTS N°29
 * **Carrera:** Tecnicatura Superior en Desarrollo de Software
 
 ---
 
-## 🚀 Deploy Unificado
+## Deploy Unificado
 La interfaz integradora que conecta a todos los agentes evaluados se encuentra desplegada en Vercel:
-🔗 **[Ver Deploy en Vercel](https://tu-link-de-vercel.vercel.app)**
+**[Ver Deploy en Vercel](https://pfo2-front-ia.vercel.app/)**
 
 ---
 
-## 📝 Prompt Maestro Utilizado
+## Prompt Maestro Utilizado
 Este es el prompt exacto ejecutado en todos los agentes, sin alteraciones, respetando la restricción de no modificar el código generado manualmente:
 
 > **Contexto y Rol**
@@ -52,10 +52,10 @@ Este es el prompt exacto ejecutado en todos los agentes, sin alteraciones, respe
 
 ---
 
-## 📸 Capturas de Pantalla de los Sitios Generados
+## Capturas de Pantalla de los Sitios Generados
 
 ### 1. Agente: Antigravity (Modelo: Claude Sonnet 4.6 - Thinking)
-> Breve observación: *[Opcional: Podés agregar acá qué tal le fue a este agente]*
+> Breve observación: *Por excelencia, fue el resultado más sólido y el que mejor estética logró. Respetó estrictamente los requisitos de diseño e implementó animaciones fluidas muy atractivas. Sin embargo, su principal fallo estético estuvo en la responsividad, logró integrar la funcionalidad del menú hamburguesa para dispositivos móviles, aunque la resolución estética de ese elemento en particular dejó bastante que desear.*
 
 ![Home Landing Page Antigravity](./img/home-antigravity.png)
 ![Sobre nosotros Landing Page Antigravity](./img/nosotros-antigravity.png)
@@ -64,8 +64,10 @@ Este es el prompt exacto ejecutado en todos los agentes, sin alteraciones, respe
 ![Contacto Landing Page Antigravity](./img/contacto-antigravity.png)
 ![Footer Landing Page Antigravity](./img/footer-antigravity.png)
 
+![Responsive - Landing Page Antigravity](./img/antigravity-responsive.mp4)
+
 ### 2. Agente: Cursor (Modelo: Composer 2.5 Fast)
-> Breve observación: *[Opcional: Podés agregar acá qué tal le fue a este agente]*
+> Breve observación: *Logró un resultado visual muy similar al primer agente, con un layout y animaciones casi idénticos. A diferencia de Antigravity, este modelo no logró integrar un menú hamburguesa para la vista de dispositivos móviles.*
 
 ![Home Landing Page Cursor](./img/home-cursor.png)
 ![Sobre nosotros Landing Page Cursor](./img/nosotros-cursor.png)
@@ -73,11 +75,21 @@ Este es el prompt exacto ejecutado en todos los agentes, sin alteraciones, respe
 ![Reseñas Landing Page Cursor](./img/reseñas-cursor.png)
 ![Contacto y footer Landing Page Cursor](./img/contacto-footer-cursor.png)
 
+![Responsive - Landing Page Cursor](./img/cursor-responsive.mp4)
+
 ### Extra: Agente de Validación (Codex - GPT-5.5 Alto)
-> Primer agente evaluado para validar el correcto diseño y límites del prompt.
+> Breve observación: *Fue el primer agente utilizado para validar la estructura, el diseño y los límites del prompt maestro. Si bien el resultado general es coherente con el resto, presentó falencias claras de UI, por ejemplo, un ícono SVG con una forma extraña en la sección principal y un footer muy básico. Curiosamente, fue el agente que mejor resolvió la lógica y el diseño del menú hamburguesa en la vista mobile.*
 
 ![Home Landing Page Codex](./img/home-codex.png)
 ![Sobre nosotros Landing Page Codex](./img/nosotros-codex.png)
 ![Características Landing Page Codex](./img/caracteristicas-codex.png)
 ![Reseñas Landing Page Codex](./img/reseñas-codex.png)
 ![Contacto y footer Landing Page Codex](./img/contacto-footer-codex.png)
+
+![Responsive - Landing Page Codex](./img/codex-responsive.mp4)
+
+### Conclusión
+
+Los agentes lograron construir un producto funcional y alineado a lo esperado, respetando las decisiones de diseño, animaciones y restricciones descritas en el prompt maestro.
+
+Es interesante notar cómo los modelos tienden a resolver la interfaz utilizando patrones predecibles y estructuras casi calcadas como la ubicaron el título principal, el subtítulo que lo acompaña, las tarjetas de métricas y el formulario de contacto con maquetaciones idénticas. Esto demuestra que, si bien un prompt de alta precisión garantiza el cumplimiento de las reglas visuales y de contenido, la "libertad creativa" delegada a la IA resulta en estándares web sumamente estandarizados.

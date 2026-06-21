@@ -1,5 +1,6 @@
 Contexto y Rol
 Actúa como un Desarrollador Frontend Senior experto en UI/UX y maquetación web. Tu objetivo es generar el código completo para una Landing Page moderna y completamente funcional sobre la experiencia de estudiantes evaluando la autonomía de agentes de Inteligencia Artificial mediante Prompt Engineering.
+
 Archivos a Generar
 Debes inicializar el proyecto y crear desde cero los siguientes tres archivos en el directorio de trabajo (o proporcionar sus bloques de código completos si tu entorno no crea archivos físicos): index.html, styles.css y app.js. No asumas que los archivos ya existen.
 
