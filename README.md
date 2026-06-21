@@ -64,6 +64,7 @@ Este es el prompt exacto ejecutado en todos los agentes, sin alteraciones, respe
 ![Contacto Landing Page Antigravity](./img/contacto-antigravity.png)
 ![Footer Landing Page Antigravity](./img/footer-antigravity.png)
 
+> **Modelo responsive:**
 <video src="./img/antigravity-responsive.mp4" controls width="100%"></video>
 https://github.com/user-attachments/assets/fabe7c51-278c-4b91-bbf2-4fc1e3d1c28e
 
@@ -76,9 +77,9 @@ https://github.com/user-attachments/assets/fabe7c51-278c-4b91-bbf2-4fc1e3d1c28e
 ![Reseñas Landing Page Cursor](./img/reseñas-cursor.png)
 ![Contacto y footer Landing Page Cursor](./img/contacto-footer-cursor.png)
 
+> **Modelo responsive:**
 <video src="./img/cursor-responsive.mp4" controls width="100%"></video>
 https://github.com/user-attachments/assets/fe9850af-4e94-4bc5-8b9b-c13bdb2a2d95
-
 
 ### Extra: Agente de Validación (Codex - GPT-5.5 Alto)
 > Breve observación: *Fue el primer agente utilizado para validar la estructura, el diseño y los límites del prompt maestro. Si bien el resultado general es coherente con el resto, presentó falencias claras de UI, por ejemplo, un ícono SVG con una forma extraña en la sección principal y un footer muy básico. Curiosamente, fue el agente que mejor resolvió la lógica y el diseño del menú hamburguesa en la vista mobile.*
@@ -89,6 +90,7 @@ https://github.com/user-attachments/assets/fe9850af-4e94-4bc5-8b9b-c13bdb2a2d95
 ![Reseñas Landing Page Codex](./img/reseñas-codex.png)
 ![Contacto y footer Landing Page Codex](./img/contacto-footer-codex.png)
 
+> **Modelo responsive:**
 <video src="./img/codex-responsive.mp4" controls width="100%"></video>
 https://github.com/user-attachments/assets/dc83ad25-dfbb-4ebf-850f-0384de660cd3
 
