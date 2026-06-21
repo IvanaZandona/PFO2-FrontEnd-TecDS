@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Landing page sobre estudiantes que evalúan la autonomía de agentes de Inteligencia Artificial mediante Prompt Engineering."
+    />
+    <title>AgentDevIA | Autonomía de agentes IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="progress-bar" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header" id="inicio">
+      <nav class="navbar" aria-label="Navegacion principal">
+        <a class="logo" href="#hero" aria-label="AgentDevIA inicio">
+          <span class="logo-mark" aria-hidden="true"></span>
+          AgentDevIA
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menú"
+          aria-controls="nav-menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+          <li><a href="#caracteristicas">Evaluación</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-panel" id="hero">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Prompt Engineering aplicado al desarrollo web</p>
+          <h1>El Futuro del Código, Sin Tocar el Código</h1>
+          <p class="hero-subtitle">
+            Estudiantes desarrolladores exploran hasta dónde puede llegar un
+            agente de IA cuando recibe instrucciones claras, contexto preciso y
+            autonomía real para construir una interfaz completa.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#caracteristicas">
+              Ver Resultados
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 12h14M13 6l6 6-6 6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+            <span class="status-pill">Experimento académico activo</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Panel visual de agentes IA">
+          <div class="visual-shell">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="agent-core">
+              <svg viewBox="0 0 160 160" role="img" aria-labelledby="agent-title">
+                <title id="agent-title">Nodo central de agente de IA</title>
+                <defs>
+                  <linearGradient id="core-gradient" x1="20" x2="140" y1="18" y2="142">
+                    <stop stop-color="#ffa5f4" />
+                    <stop offset="0.54" stop-color="#db74cf" />
+                    <stop offset="1" stop-color="#ffdac0" />
+                  </linearGradient>
+                </defs>
+                <rect
+                  x="34"
+                  y="34"
+                  width="92"
+                  height="92"
+                  rx="24"
+                  fill="url(#core-gradient)"
+                />
+                <path
+                  d="M56 77h48M56 96h31M65 54v16M95 54v16M65 106v16M95 106v16M38 65h18M38 95h18M104 65h18M104 95h18"
+                  stroke="#3d0b16"
+                  stroke-width="6"
+                  stroke-linecap="round"
+                />
+                <circle cx="66" cy="80" r="5" fill="#3d0b16" />
+                <circle cx="94" cy="80" r="5" fill="#3d0b16" />
+              </svg>
+            </div>
+            <div class="signal-card signal-a">
+              <span>Prompt</span>
+              <strong>96%</strong>
+            </div>
+            <div class="signal-card signal-b">
+              <span>Tokens</span>
+              <strong>8.4k</strong>
+            </div>
+            <div class="signal-card signal-c">
+              <span>Autonomía</span>
+              <strong>Alta</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-panel" id="sobre-nosotros">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Sobre Nosotros</p>
+          <h2>Un laboratorio estudiantil para medir criterio, contexto y ejecución.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              Somos un grupo de estudiantes que está poniendo a prueba
+              herramientas de desarrollo impulsadas por IA. El desafío consiste
+              en delegar el maquetado completo de una landing page mediante
+              ingeniería de instrucciones, sin intervenir manualmente el código
+              producido por el agente.
+            </p>
+            <p>
+              Observamos cómo interpreta restricciones visuales, organiza
+              archivos, responde a cambios de contexto y mantiene coherencia
+              entre HTML, CSS y JavaScript. Cada prompt funciona como una
+              especificación técnica y cada resultado se analiza como una
+              experiencia real de colaboración humano-IA.
+            </p>
+          </div>
+          <div class="metric-board reveal" aria-label="Indicadores del proyecto">
+            <div class="metric">
+              <strong data-count="3">0</strong>
+              <span>archivos base</span>
+            </div>
+            <div class="metric">
+              <strong data-count="100">0</strong>
+              <span>responsive</span>
+            </div>
+            <div class="metric">
+              <strong data-count="0">0</strong>
+              <span>ediciones manuales</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features section-panel" id="caracteristicas">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Características Evaluadas</p>
+          <h2>Tres ejes para entender la autonomía de un agente.</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="feature-card reveal tilt-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M8 9 4 12l4 3M16 9l4 3-4 3M14 5l-4 14"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Autonomía de Código</h3>
+            <p>
+              Capacidad del agente para estructurar archivos, resolver layout,
+              aplicar estilos y conectar interacciones sin asistencia manual.
+            </p>
+          </article>
+
+          <article class="feature-card reveal tilt-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 3v3M12 18v3M4.64 5.64l2.12 2.12M17.24 16.24l2.12 2.12M3 12h3M18 12h3M5.64 19.36l2.12-2.12M16.24 7.76l2.12-2.12M9 12l2 2 4-5"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Precisión del Prompt</h3>
+            <p>
+              Nivel de fidelidad con el que la IA interpreta requisitos,
+              jerarquías de contenido, tono visual y restricciones técnicas.
+            </p>
+          </article>
+
+          <article class="feature-card reveal tilt-card">
+            <div class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11ZM8 8h8M8 12h5M8 16h7"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Manejo de Tokens de Contexto</h3>
+            <p>
+              Eficiencia para conservar instrucciones clave, priorizar datos y
+              sostener consistencia durante todo el flujo de generación.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonials section-panel" id="testimonios">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Testimonios</p>
+          <h2>Reseñas de quienes aceptaron no tocar el código.</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card reveal">
+            <p>
+              "Me obligó a pensar el prompt como una consigna profesional. La
+              IA resolvió más de lo esperado cuando el contexto fue preciso."
+            </p>
+            <div>
+              <strong>Camila R.</strong>
+              <span>Estudiante desarrolladora frontend</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <p>
+              "Lo difícil fue resistir la tentación de corregir a mano. Aprendí
+              que una buena instruccion puede valer tanto como una buena linea
+              de código."
+            </p>
+            <div>
+              <strong>Mateo S.</strong>
+              <span>Estudiante de maquetacion web</span>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <p>
+              "El desafío mostró límites reales: cuando el prompt era ambiguo,
+              el resultado también lo era. Cuando era claro, el agente brillaba."
+            </p>
+            <div>
+              <strong>Lucia V.</strong>
+              <span>Estudiante de desarrollo de software</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-panel" id="contacto">
+        <div class="contact-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Formulario de Contacto</p>
+            <h2>Comparte tu prompt y suma una nueva prueba al experimento.</h2>
+            <p>
+              Invitamos a otros desarrolladores a enviar consignas, resultados
+              y observaciones sobre agentes autónomos aplicados al frontend.
+            </p>
+          </div>
+
+          <form class="contact-form reveal" aria-label="Formulario de contacto">
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" placeholder="Tu nombre" />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="tu@email.com" />
+
+            <label for="message">Mensaje</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Comparte el prompt, el resultado o la hipótesis que quieres evaluar"
+            ></textarea>
+
+            <button class="btn btn-primary magnetic" type="submit">
+              Enviar Prompt
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="m22 2-7 20-4-9-9-4 20-7Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <p class="form-note" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="logo footer-logo" href="#hero">
+          <span class="logo-mark" aria-hidden="true"></span>
+          AgentDevIA
+        </a>
+        <p>
+          Proyecto para la Tecnicatura Superior en Desarrollo de Software.
+        </p>
+      </div>
+      <div class="social-links" aria-label="Redes sociales">
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+      <p class="copyright">
+        Derechos de autor 2026 AgentDevIA. Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
